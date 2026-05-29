@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RestMind AI | ADHD Sleep Coach</title>
+  <meta name="description" content="Portfolio website for RestMind AI, an ADHD sleep coach concept by Leslie Raya." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#home">RestMind <span>AI</span></a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#model">AI Model</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#ethics">Ethics</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">AI Project Portfolio</p>
+        <h1>RestMind AI</h1>
+        <p class="hero-subtitle">
+          An ADHD sleep coach that turns racing thoughts into a calming bedtime plan.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#demo">View Demo Plan</a>
+          <a class="btn secondary" href="#model">How It Works</a>
+        </div>
+        <p class="credit">Created by Leslie Raya · Computer Science</p>
+      </div>
+    </section>
+
+    <section id="problem" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">The Problem</p>
+        <h2>Bedtime can feel like the brain is finally “wide awake.”</h2>
+      </div>
+      <div class="problem-grid">
+        <article class="card">
+          <span class="dot cyan"></span>
+          <h3>Racing thoughts</h3>
+          <p>Unfinished tasks, worries, and reminders often show up right when the user is trying to rest.</p>
+        </article>
+        <article class="card">
+          <span class="dot purple"></span>
+          <h3>Dopamine loop</h3>
+          <p>Phone scrolling can become a quick dopamine cycle that makes it harder to begin a wind-down routine.</p>
+        </article>
+        <article class="card">
+          <span class="dot pink"></span>
+          <h3>No structure</h3>
+          <p>A routine can be difficult to start when the user feels overwhelmed or does not know what to do first.</p>
+        </article>
+        <article class="card">
+          <span class="dot green"></span>
+          <h3>Generic advice</h3>
+          <p>Basic sleep tips do not always adapt to the user’s mood, energy, ADHD patterns, or current obstacle.</p>
+        </article>
+      </div>
+      <div class="quote-box">
+        <span>“I forgot...”</span>
+        <span>“What if...”</span>
+        <span>“One more video...”</span>
+      </div>
+    </section>
+
+    <section id="solution" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Project Goal</p>
+        <h2>A supportive AI assistant that helps users prepare for sleep.</h2>
+        <p class="section-note">RestMind AI is a wellness support tool. It does not diagnose, treat, or replace professional care.</p>
+      </div>
+      <div class="steps">
+        <article class="step-card">
+          <div class="step-number">1</div>
+          <h3>Empty the mind</h3>
+          <p>A fast brain dump turns random bedtime thoughts into organized tomorrow tasks, worries, or reminders.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-number">2</div>
+          <h3>Choose a calming action</h3>
+          <p>The AI recommends a short, realistic strategy based on the user’s current mood and energy level.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-number">3</div>
+          <h3>Build a routine</h3>
+          <p>Over time, the assistant learns which wind-down steps help the user fall asleep faster.</p>
+        </article>
+      </div>
+      <div class="promise">Design promise: gentle, short, personalized, and nonjudgmental.</div>
+    </section>
+
+    <section id="model" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">How the AI Model Works</p>
+        <h2>Input → understand the sleep problem → recommend a calming response → learn from feedback.</h2>
+      </div>
+
+      <div class="pipeline">
+        <article class="pipeline-card">
+          <h3>User Input</h3>
+          <p>“My brain won’t stop.”</p>
+        </article>
+        <div class="connector"></div>
+        <article class="pipeline-card">
+          <h3>NLP Classifier</h3>
+          <p>Detects racing thoughts, stress, overstimulation, or restlessness.</p>
+        </article>
+        <div class="connector"></div>
+        <article class="pipeline-card featured">
+          <h3>Recommendation Engine</h3>
+          <p>Chooses breathing, brain dump, sleep story, or routine support.</p>
+        </article>
+        <div class="connector"></div>
+        <article class="pipeline-card">
+          <h3>Feedback Loop</h3>
+          <p>Learns what helped using bedtime, wake time, mood, and rating.</p>
+        </article>
+      </div>
+
+      <div class="tech-grid">
+        <div>
+          <h3>AI Techniques</h3>
+          <ul class="clean-list">
+            <li>Text classification for sleep-state detection</li>
+            <li>Prompted LLM responses for calming guidance and stories</li>
+            <li>Recommendation rules based on mood, energy, and history</li>
+            <li>Optional Graph RAG to connect routines, triggers, and strategies</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tech Stack</h3>
+          <div class="stack">
+            <span>Frontend: React or HTML/CSS</span>
+            <span>Backend: Python + FastAPI</span>
+            <span>Model: OpenAI / Groq / Local LLM</span>
+            <span>Data: JSON or SQLite</span>
+            <span>Deploy: GitHub Pages + Render</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Core Features</p>
+        <h2>One prompt, one action, one next step.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="icon">🌙</div>
+          <h3>Brain Dump Organizer</h3>
+          <p>Sorts thoughts into tomorrow tasks, worries, reminders, and “let go for tonight.”</p>
+        </article>
+        <article class="feature">
+          <div class="icon">🫁</div>
+          <h3>Wind-Down Coach</h3>
+          <p>Suggests short routines such as dimming lights, water, breathing, stretching, or audio.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">📖</div>
+          <h3>Sleep Story Generator</h3>
+          <p>Creates calm stories based on the user’s interests without stimulating plots.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">📈</div>
+          <h3>Sleep Pattern Tracker</h3>
+          <p>Learns what helps over time using ratings, bedtime, wake time, and energy.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="demo" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Sample User Flow</p>
+        <h2>A short, supportive interaction for bedtime.</h2>
+      </div>
+
+      <div class="demo-panel">
+        <div class="chat-card user">
+          <h3>User</h3>
+          <p>“I’m tired but I keep thinking about everything I need to do tomorrow.”</p>
+        </div>
+        <div class="chat-card detect">
+          <h3>AI detects</h3>
+          <p>Racing thoughts + task anxiety</p>
+          <small>Confidence: high</small>
+        </div>
+        <div class="chat-card ai">
+          <h3>AI response</h3>
+          <p>“Let’s do a 3-minute brain dump. I’ll sort your thoughts into: do tomorrow, not urgent, and worry-only. Then we’ll do one breathing exercise.”</p>
+          <div class="mini-actions">
+            <button>3-minute brain dump</button>
+            <button>Breathing exercise</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div><span>1</span><strong>Home screen</strong><p>User chooses mood, energy, and sleep obstacle.</p></div>
+        <div><span>2</span><strong>Brain dump</strong><p>AI sorts thoughts into useful categories.</p></div>
+        <div><span>3</span><strong>Recommendation</strong><p>AI gives a 5-minute wind-down plan.</p></div>
+        <div><span>4</span><strong>Feedback</strong><p>User rates what helped; model personalizes next time.</p></div>
+      </div>
+
+      <div class="metric">Success metric: user completes a routine and reports feeling calmer before sleep.</div>
+    </section>
+
+    <section id="ethics" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Ethics + Safety</p>
+        <h2>Because sleep and ADHD connect to mental wellness, the app must be careful.</h2>
+      </div>
+
+      <div class="ethics-grid">
+        <article class="card"><h3>Not medical diagnosis</h3><p>The assistant clearly states that it is a wellness support tool, not a doctor or therapist.</p></article>
+        <article class="card"><h3>Privacy first</h3><p>Sleep notes may include personal worries, so data should be stored securely and minimized.</p></article>
+        <article class="card"><h3>Crisis-aware limits</h3><p>If the user mentions self-harm or severe distress, the app should provide urgent support resources.</p></article>
+        <article class="card"><h3>No-shame design</h3><p>Language avoids guilt and gently encourages restarting after difficult nights.</p></article>
+        <article class="card"><h3>Low stimulation</h3><p>The interface avoids bright visuals, endless chats, or exciting stories that keep users awake.</p></article>
+      </div>
+    </section>
+
+    <section class="section final">
+      <h2>Final Vision</h2>
+      <p>
+        RestMind AI is not just a sleep app. It is a supportive AI companion that helps people with ADHD
+        calm their thoughts, build healthier routines, and feel more in control at night.
+      </p>
+      <a class="btn primary" href="#home">Back to Top</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>RestMind AI · Leslie Raya · Portfolio Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
